@@ -38,6 +38,14 @@ Ten projects: PyTorch classifiers, semantic search with a Gradio interface, TabP
 Warehouse replenishment planner with a check and repair loop. A deterministic checker validates the generated plan against an answer key, and failures trigger scoped re-extraction rather than full regeneration.
 `Claude` `Pydantic` `openpyxl`
 
+**[Multi-Label Text Classification](https://github.com/AkshitAtmakuri/multilabel-text-classification)**
+Two approaches to the same multi-label problem on identical splits: a PyTorch model built from scratch with class weighting for label imbalance, and a fine-tuned BERT.
+`PyTorch` `Transformers` `scikit-learn`
+
+**[Authorship Verification](https://github.com/AkshitAtmakuri/authorship-verification)**
+Detecting whether two texts share an author, where topical similarity is a trap and the real signal is style. LSTM against fine-tuned BERT, with model cards for both.
+`PyTorch` `BERT` `Transformers`
+
 ## Data engineering and statistics
 
 **[E-commerce Database Design and SQL Analytics](https://github.com/AkshitAtmakuri/ecommerce-database-design-sql-analytics)**
@@ -47,6 +55,12 @@ Normalised 14 table SQLite schema, a synthetic generator producing 11,206 refere
 **[Statistical Modelling in R](https://github.com/AkshitAtmakuri/statistical-modelling-r)**
 Regression with a mean centred interaction term, interpreted at representative percentiles rather than left as a raw coefficient.
 `R` `tidyverse` `emmeans`
+
+## Search and game playing
+
+**[Hex MCTS Agent](https://github.com/AkshitAtmakuri/hex-mcts-agent)**
+Game playing agent for 13x13 Hex: Monte Carlo Tree Search over a convolutional value network, plus batched minimax that evaluates sibling positions in GPU batches rather than one at a time.
+`PyTorch` `MCTS` `TorchScript`
 
 ## Computer vision and systems
 
